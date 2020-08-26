@@ -16,14 +16,14 @@ h1 {
 	width: 100%
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
     .col-lg-4 {
         width: 33%;
         float: left;
     }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 481px) and (max-width: 1024px) {
     .col-md-6 {
         width: 50%;
         float: left;
@@ -39,7 +39,7 @@ h1 {
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     .col-sm-12 {
         width: 100%;
         float: left;
