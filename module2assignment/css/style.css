@@ -178,3 +178,21 @@ p {
       width: 100%;
     }
   }
+
+  #burger:hover, active {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+  }
+
+  #pizza:hover, active {
+    color: blue;
+    background-color: white;
+    cursor: pointer;
+  }
+
+  #chicken:hover, active {
+    color: red;
+    background-color: white;
+    cursor: pointer;
+  }
